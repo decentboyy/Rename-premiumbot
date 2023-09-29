@@ -40,5 +40,5 @@ async def upgradecm(bot,message):
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Decent_op")],
-        			InlineKeyboardButton("Other Methods",url = "https://t.me/CodeNexus_community/85")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Other Methods",url = "https://t.me/CodeNexus_community/85")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ])
 	await message.reply_text(text = text,reply_markup = keybord)
