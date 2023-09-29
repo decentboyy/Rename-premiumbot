@@ -18,7 +18,7 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Decent_op")], 
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Decent_op")],
         			InlineKeyboardButton("Other Methods",url = "https://t.me/CodeNexus_community/85")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
